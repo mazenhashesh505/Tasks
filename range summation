@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int
+main ()
+{
+  int start, end;
+  cout << "enter two numbers :";
+
+  cin >> start >> end;
+
+  cout << "sum of numbers from 1 to " << end << "=" << end * (end +
+															  1) / 2 << "\n";
+  cout << "sum of numbers from " << start << " to " << end << "=" << end *
+	(end + 1) / 2 - start  * (start-1) / 2;
+
+  return 0;
+}
