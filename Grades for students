@@ -1,0 +1,41 @@
+#include <iostream>
+using namespace std;
+int
+main ()
+{
+
+  string name1, name2;
+  double id1, id2;
+  double x, y;
+
+  cout << "enter the student 1 name: ";
+  cin >> name1;
+
+  cout << "\n" << "enter your id  " << name1 << ":";
+  cin >> id1;
+
+  cout << "\n" << "enter your grade in math2 " << name1 << ":";
+  cin >> x;
+
+  cout << "\n" << "enter the student 2 name: ";
+  cin >> name2;
+
+  cout << "\n" << "enter your id  " << name2 << ":";
+  cin >> id2;
+
+  cout << "\n" << "enter your grade in math2 " << name2 << ":";
+  cin >> y;
+
+
+
+  cout << "\n" << "the grades for students in math2" << "\n";
+  
+  cout << "\n" << name1 << ", your grade is :" << x << "\n";
+  
+  cout << "\n" << name2 << ", your grade is :" << y << "\n";
+
+  cout << "\n" << "the average is =" << (x + y) / 2;
+
+
+  return 0;
+}

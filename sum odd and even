@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+int
+main ()
+{
+
+  //even = ev 
+  //odd  = od 
+
+  int ev1, ev2, ev3, ev4;
+  int od1, od2, od3, od4;
+
+
+  cin >> od1 >> ev1 >> od2 >> ev2 >> od3 >> ev3 >> od4 >> ev4;
+
+  int sum_even, sum_odd;
+
+
+  sum_even = ev1 + ev2 + ev3 + ev4;
+  sum_odd = od1 + od2 + od3 + od4;
+
+  cout << "sum even =" << sum_even << "\n";
+  cout << "sum odd =" << sum_odd << "\n";
+
+
+
+  return 0;
+}
